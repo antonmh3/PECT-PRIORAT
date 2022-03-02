@@ -1,0 +1,3 @@
+#Geopackage temporal files
+*.gpkg-shm
+*.gpkg-wal
