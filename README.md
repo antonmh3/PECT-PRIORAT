@@ -9,7 +9,6 @@ Per aquest treball final s'ha decidit reelaborar la [Pàgina web original del pr
 1. Remodelar la pàgina web amb elements i estructura propia tot mantenint continguts dicatats pel propi projecte
 2. Elaborar una pàgina a la web sobre l'apartat del banc de terres on es mostrin en forma de fitxes imatges georeferenciades, referencia cadastral assignada i una breu descripció de cada parcel·la cedida
 3. Crear un mapa web on es visualitzi cada aparcel·la cedida i una breu descripció amb imatge
-objectius
 ## Data
 g
 ## Web structure
