@@ -6,7 +6,7 @@ web where the objectives and operations of the Priorat PECT project are exposed.
 g
 ## Web structure
 g
-# Qgis2web
+## Qgis2web
 u
 ## improvements, difficulties, modifications
 k
