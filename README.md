@@ -12,7 +12,6 @@ Per aquest treball final s'ha decidit reelaborar parcialment la [Pàgina web ori
 ## Data
 Les dades utilitzades per a elaborar els continguts textuals son en la gran majoria extretes de la pàgina web original amb la finalitat de no distorsionar el que el propi pojecte ha conclos en que el representa. <br>
 Per a la cartografia, s'han extret les parcel·les del cadastre del IGN, agafant unicament aquelles que mostra l'apartat del banc de terres a la pàgina original. El mètode per a elaborar el mapa i extreure les geometries s'exposa en l'apartat *Qgis2web* d'aquest readme.md
-g
 ## Web structure
 g
 ## Qgis2web
