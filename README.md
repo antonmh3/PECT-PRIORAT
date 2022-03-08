@@ -10,8 +10,12 @@ Per aquest treball final s'ha decidit reelaborar parcialment la [Pàgina web ori
 2. Elaborar una pàgina a la web sobre l'apartat del banc de terres on es mostrin en forma de fitxes imatges georeferenciades, referencia cadastral assignada i una breu descripció de cada parcel·la cedida
 3. Crear un mapa web on es visualitzi cada aparcel·la cedida i una breu descripció amb imatge
 ## Data
-Les dades utilitzades per a elaborar els continguts textuals son en la gran majoria extretes de la pàgina web original amb la finalitat de no distorsionar el que el propi pojecte ha conclos en que el representa. <br>
-Per a la cartografia, s'han extret les parcel·les del cadastre del IGN, agafant unicament aquelles que mostra l'apartat del banc de terres a la pàgina original. El mètode per a elaborar el mapa i extreure les geometries s'exposa en l'apartat *Qgis2web* d'aquest readme.md
+Les dades utilitzades per a elaborar els continguts argumentals son en la gran majoria extretes de la pàgina web original amb la finalitat de no distorsionar el que el propi pojecte ha conclos en que el representa. <br>
+Per a la cartografia, s'han extret les parcel·les del cadastre del IGN, agafant unicament aquelles que mostra l'apartat del banc de terres a la pàgina original. El mètode per a elaborar el mapa i extreure les geometries s'exposa en l'apartat *Qgis2web* d'aquest readme.md. En total s'han aconseguit X parcel·les amb les següents característques: <br>
+
+|ID|X|Y|Mun|RefCad|Ha|Tipus|regadiu|
+| ------------- |:-------------:|:-------------:|:-------------:|:-------------:|:-------------:|:-------------:|:-------------:|
+|P01|	320959.2|	4557651.7|	Pradell de la Teixeta|	43117A01200016|	  
 ## Web structure
 g
 ## Qgis2web
