@@ -32,4 +32,4 @@ g
 ## Qgis2web
 u
 ## improvements, difficulties, modifications
-k
+Es podria fer una web dinàmica afegint l'apartat de post i notícies que tenen a l'original.
