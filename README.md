@@ -15,15 +15,15 @@ Per a la cartografia, s'han extret les parcel·les del cadastre del IGN, agafant
 
 |ID|X|Y|Mun|RefCad|Ha|Tipus|regadiu|Pendent|
 | ------------- |:-------------:|:-------------:|:-------------:|:-------------:|:-------------:|:-------------:|:-------------:|:-------------:|
-|P01|	320959.2|	4557651.7|	Pradell de la Teixeta|	43117A01200016|	  
-|P02|	321717.0|	4558226.8|	Pradell de la Teixeta|	1784627CF2518D|
-|P03|	321697.0|	4558214.3|	Pradell de la Teixeta|	1784628CF2518D|
-|P04|	321624.0|	4558181.5|	Pradell de la Teixeta|	43117A01400116|
-|P05|	321286.0|	4556999.3|	Pradell de la Teixeta|	43117A01300012|
-|P06|	321268.0|	4556875.3|	Pradell de la Teixeta|	43117A01300058|
-|P07|	322845.0|	4559656.5|	Pradell de la Teixeta|	43117A00500222|
-|P08|	322875.0|	4559612.5|  Pradell de la Teixeta|	43117A00500009|
-|P09|	320623.5|	4559880.0|	Pradell de la Teixeta|	43117A00100003|
+|P01|	320959.2|	4557651.7|	Pradell de la Teixeta|	43117A01200016|	0,88|
+|P02|	321717.0|	4558226.8|	Pradell de la Teixeta|	1784627CF2518D| 0,08|
+|P03|	321697.0|	4558214.3|	Pradell de la Teixeta|	1784628CF2518D| 0,06|
+|P04|	321624.0|	4558181.5|	Pradell de la Teixeta|	43117A01400116| 0,42|
+|P05|	321286.0|	4556999.3|	Pradell de la Teixeta|	43117A01300012| 0,91|
+|P06|	321268.0|	4556875.3|	Pradell de la Teixeta|	43117A01300058| 3,04|
+|P07|	322845.0|	4559656.5|	Pradell de la Teixeta|	43117A00500222| 0,34|
+|P08|	322875.0|	4559612.5|  Pradell de la Teixeta|	43117A00500009| 1,06|
+|P09|	320623.5|	4559880.0|	Pradell de la Teixeta|	43117A00100003| 1,52|
 
 
 
