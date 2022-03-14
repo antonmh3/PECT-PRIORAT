@@ -34,8 +34,9 @@ L'estructura de la web es resumeix en una simple dinàmica entre *5 pestanyes* o
 - **El projecte**: apartat que mostra els fonaments teórics i accions per als quals s'ha donat el projecte
 - **Terrenys**: llisat de fitxes amb informació sobre els diferents terrenys cedits per propietaris particulars
 - **Visor de terres**: mapa on es mostren els diversos terrenys cedits amb informació resumida
-- **Contacte**: espai per a establir contacte amb l'equip del projecte de forma senzilla
-
+- **Contacte**: espai per a establir contacte amb l'equip del projecte de forma senzilla 
+<br>
+<img src="./images/readme/webflow.png" alt="HTML5 Icon">
 
 ## Qgis2web
 u
