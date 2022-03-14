@@ -1,4 +1,4 @@
-<img src="./images/Logo.png" alt="HTML5 Icon" width="250" height="128"> <br>
+<img src="./readme/Logo.png" alt="HTML5 Icon" width="250" height="128"> <br>
 # What is PECT-Priorat?
 És un projecte finançat amb fons de desenvolupament Europeu i recolzat pel consell comarcal del Priorat i altres institucions, empreses i ens de renom en aquesta localitat, basa la seva tasca en potenciar el desenvolupament econòmic, fer una gestió sostenible del paisatge i preservar els valors agricoles i culturals de la comarca.<br>
 En aquesta pàgina web s'exposen els objectius i les operacions realitzades pel projecte PECT Priorat.
@@ -36,7 +36,7 @@ L'estructura de la web es resumeix en una simple dinàmica entre *5 pestanyes* o
 - **Visor de terres**: mapa on es mostren els diversos terrenys cedits amb informació resumida
 - **Contacte**: espai per a establir contacte amb l'equip del projecte de forma senzilla 
 <br>
-<img src="./images/readme/webflow.png" alt="HTML5 Icon">
+<img src="./readme/webflow.png" alt="HTML5 Icon">
 
 ## Qgis2web
 u
