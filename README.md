@@ -29,7 +29,14 @@ Per a la cartografia, s'han extret les parcel·les del cadastre del IGN, agafant
 
 
 ## Web structure
-g
+L'estructura de la web es resumeix en una simple dinàmica entre *5 pestanyes* on totes es comuniquen a través d'una barra d'accés ràpid a la capçalera. Entre els apartats es troba:
+- **Índex**: és una mostra molt resumida de les principals idees del projecte. També és la principal pestanya que dona accés a les següents.
+- **El projecte**: apartat que mostra els fonaments teórics i accions per als quals s'ha donat el projecte
+- **Terrenys**: llisat de fitxes amb informació sobre els diferents terrenys cedits per propietaris particulars
+- **Visor de terres**: mapa on es mostren els diversos terrenys cedits amb informació resumida
+- **Contacte**: espai per a establir contacte amb l'equip del projecte de forma senzilla
+
+
 ## Qgis2web
 u
 ## improvements, difficulties, modifications
