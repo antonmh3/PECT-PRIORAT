@@ -1,7 +1,7 @@
 ![](./images/Logo.png)
-# PECT-PRIORAT
-En aquesta pàgina web s'exposen els objectius i les operacions realitzades pel projecte PECT Priorat. <br>
-Aquest projecte finançat amb fons de desenvolupament Europeu i recolzat pel consell comarcal del Priorat i altres institucions, empreses i ens de renom en aquesta localitat, basa la seva tasca en potenciar el desenvolupament econòmic, fer una gestió sostenible del paisatge i preservar els valors agricoles i culturals de la comarca.
+# What is PECT-Priorat?
+Aquest projecte finançat amb fons de desenvolupament Europeu i recolzat pel consell comarcal del Priorat i altres institucions, empreses i ens de renom en aquesta localitat, basa la seva tasca en potenciar el desenvolupament econòmic, fer una gestió sostenible del paisatge i preservar els valors agricoles i culturals de la comarca.<br>
+En aquesta pàgina web s'exposen els objectius i les operacions realitzades pel projecte PECT Priorat.
 ## Motivation
 Aquesta pàgina web s'ha creat com a treball final a partir de l'assignatura de *Producció, disseny cartografic i eines web* impartida al grau de *Geografia, anàlisi territorial i sostenibilitat* per la URV. <br>
 Per aquest treball final s'ha decidit reelaborar parcialment la [Pàgina web original del projecte](http://pectpriorat.cat/) amb motiu principal de dotar-la d'una component geogràfica que actualment no disposa, tot afegint un mapa web dins l'apartat de banc de terres que permetrà localitzar informació de forma ràpida, mostrar l'iniciativa de cara al públic de forma més dinàmica i millorar la qualitat de la web amb aquest nou recurs. També cal fer esment en les mancançes o falta d'informació que contenen les fitxes de cada parcel·la cedida, sense referencia cadastral ni coordenades de localització, un fet que també es preten modificar.<br>
