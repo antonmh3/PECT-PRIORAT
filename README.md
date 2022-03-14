@@ -38,8 +38,6 @@ L'estructura de la web es resumeix en una simple dinàmica entre *5 pestanyes* o
 <br>
 <img src="./readme/webflow.png" alt="HTML5 Icon">
 <br>
-<img src="./readme/new.png" alt="HTML">
-<br>
 ## Qgis2web
 u
 ## improvements, difficulties, modifications
