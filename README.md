@@ -37,7 +37,7 @@ L'estructura de la web es resumeix en una simple dinàmica entre *5 pestanyes* o
 - **Contacte**: espai per a establir contacte amb l'equip del projecte de forma senzilla 
 <br>
 <img src="./readme/webflow.png" alt="HTML5 Icon">
-<img src="./index/webflow.png" alt="HTML5 Icon">
+<img src="./readme/index.png" alt="HTML5 Icon">
 ## Qgis2web
 u
 ## improvements, difficulties, modifications
