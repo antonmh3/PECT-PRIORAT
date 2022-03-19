@@ -1,10 +1,10 @@
 <img src="./images/Logo.png" alt="HTML5 Icon" width="250" height="128"> <br>
-1. [What is PECT-Priorat?](https://github.com/antonmh3/PECT-PRIORAT/edit/main/README.md#what-is-pect-priorat "What is PECT-Priorat")<br>
-2. [Motivation](https://github.com/antonmh3/PECT-PRIORAT/edit/main/README.md#motivation "Motivation")<br>
-3.[Data](https://github.com/antonmh3/PECT-PRIORAT/edit/main/README.md#data "Data")<br>
-4. [Web structure](https://github.com/antonmh3/PECT-PRIORAT/edit/main/README.md#web-structure "Web structure")<br>
-5. [Qgis2web](https://github.com/antonmh3/PECT-PRIORAT/edit/main/README.md#qgis2web "Qgis2web")<br>
-6. [Improvements, difficulties, modifications](https://github.com/antonmh3/PECT-PRIORAT/edit/main/README.md#improvements-difficulties-modifications"Improvements, difficulties, modifications")<br>
+1.[What is PECT-Priorat?](# What is PECT-Priorat?)<br>
+2.[Motivation](## Motivation)<br>
+3.[Data](## Data)<br>
+4.[Web structure](## Web structure)<br>
+5. [Qgis2web](## Qgis2web)<br>
+6. [Improvements, difficulties, modifications](## Improvements, difficulties, modifications)<br>
 # What is PECT-Priorat?
 És un projecte finançat amb fons de desenvolupament Europeu i recolzat pel consell comarcal del Priorat i altres institucions, empreses i ens de renom en aquesta localitat, basa la seva tasca en potenciar el desenvolupament econòmic, fer una gestió sostenible del paisatge i preservar els valors agricoles i culturals de la comarca.<br>
 En aquesta pàgina web s'exposen els objectius i les operacions realitzades pel projecte PECT Priorat.
