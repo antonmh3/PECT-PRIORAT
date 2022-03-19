@@ -42,6 +42,8 @@ Visualitza l'**estructura i continguts complerts** de cada pàgina en el següen
 
 <a href= "./docx/continguts.pdf"><img src="./docx/pdf.png" width="70" height="70"></a> <br> 
 ## Qgis2web
-u
+La component geogràfica de la web traduida en un mapa incrustat a l'apartat de vissor de terres, s'ha assolit a través de l'ús de técniques de teledetecció, informació cadastral, referencies de la web original i el software lliure Qgis amb el pluguin Qgis2web.
+Inicialment es van extreure les parcel·les cadastrals de les finques cedides de Pradell de la Teixeta a través de fer comparacions de les imatges aportades per la web original amb les dimencions i geometries de les parceles cadastrals presentades pel plugin de Qgis del Cadastro INSPIRE.
+
 ## Improvements, difficulties, modifications
 Es podria fer una web dinàmica afegint l'apartat de post i notícies que tenen a l'original.
