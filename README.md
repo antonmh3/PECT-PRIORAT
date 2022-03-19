@@ -49,5 +49,5 @@ Visualitza l'**estructura i continguts complerts** de cada pàgina en el següen
 <a href= "./docx/continguts.pdf"><img src="./docx/pdf.png" width="70" height="70"></a> <br> 
 ## Qgis2web
 u
-## improvements, difficulties, modifications
+## Improvements, difficulties, modifications
 Es podria fer una web dinàmica afegint l'apartat de post i notícies que tenen a l'original.
