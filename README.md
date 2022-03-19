@@ -1,4 +1,4 @@
-<img src="./readme/Logo.png" alt="HTML5 Icon" width="250" height="128"> <br>
+<img src="./images/Logo.png" alt="HTML5 Icon" width="250" height="128"> <br>
 # What is PECT-Priorat?
 És un projecte finançat amb fons de desenvolupament Europeu i recolzat pel consell comarcal del Priorat i altres institucions, empreses i ens de renom en aquesta localitat, basa la seva tasca en potenciar el desenvolupament econòmic, fer una gestió sostenible del paisatge i preservar els valors agricoles i culturals de la comarca.<br>
 En aquesta pàgina web s'exposen els objectius i les operacions realitzades pel projecte PECT Priorat.
@@ -15,16 +15,16 @@ Les dades utilitzades per a elaborar els continguts argumentals son en la gran m
 Per a la cartografia, s'han extret les parcel·les del cadastre del IGN, agafant unicament aquelles que mostra l'apartat del banc de terres a la pàgina original. El mètode per a elaborar el mapa i extreure les geometries s'exposa en l'apartat *Qgis2web* d'aquest readme.md. En total s'han aconseguit X parcel·les amb les següents característques: <br>
 
 |ID|X|Y|Mun|RefCad|Ha|Tipus|regadiu|Pendent|
-| ------------- |:-------------:|:-------------:|:-------------:|:-------------:|:-------------:|:-------------:|:-------------:|:-------------:|
-|P01|	320959.2|	4557651.7|	Pradell de la Teixeta|	43117A01200016|	0,88|
-|P02|	321717.0|	4558226.8|	Pradell de la Teixeta|	1784627CF2518D| 0,08|
-|P03|	321697.0|	4558214.3|	Pradell de la Teixeta|	1784628CF2518D| 0,06|
-|P04|	321624.0|	4558181.5|	Pradell de la Teixeta|	43117A01400116| 0,42|
-|P05|	321286.0|	4556999.3|	Pradell de la Teixeta|	43117A01300012| 0,91|
-|P06|	321268.0|	4556875.3|	Pradell de la Teixeta|	43117A01300058| 3,04|
-|P07|	322845.0|	4559656.5|	Pradell de la Teixeta|	43117A00500222| 0,34|
-|P08|	322875.0|	4559612.5|  Pradell de la Teixeta|	43117A00500009| 1,06|
-|P09|	320623.5|	4559880.0|	Pradell de la Teixeta|	43117A00100003| 1,52|
+| ------------- |:-------------:|:-------------:|:-------------:|:-------------:|:-------------:|:-------------:|:-------------:|
+|P01|	320959.2|	4557651.7|	Pradell de la Teixeta|	43117A01200016|	0,88|Avellaner|No|
+|P02|	321717.0|	4558226.8|	Pradell de la Teixeta|	1784627CF2518D| 0,08|Oliverar|No|
+|P03|	321697.0|	4558214.3|	Pradell de la Teixeta|	1784628CF2518D| 0,06|Oliverar|No|
+|P04|	321624.0|	4558181.5|	Pradell de la Teixeta|	43117A01400116| 0,42|Oliverar|No|
+|P05|	321286.0|	4556999.3|	Pradell de la Teixeta|	43117A01300012| 0,91|Avellaner|No|
+|P06|	321268.0|	4556875.3|	Pradell de la Teixeta|	43117A01300058| 3,04|Forestal|No|
+|P07|	322845.0|	4559656.5|	Pradell de la Teixeta|	43117A00500222| 0,34|Avellaner|No|
+|P08|	322875.0|	4559612.5|  Pradell de la Teixeta|	43117A00500009| 1,06|Avellaner|No|
+|P09|	320623.5|	4559880.0|	Pradell de la Teixeta|	43117A00100003| 1,52|Matollar|No|
 
 
 
@@ -37,7 +37,7 @@ L'estructura de la web es resumeix en una simple dinàmica entre *5 pestanyes* o
 - **Contacte**: espai per a establir contacte amb l'equip del projecte de forma senzilla 
 <br>
 <img src="./readme/webflow.png" alt="HTML5 Icon">
-<a href="./readme/join.pdf"target="_blank">Per a visualitza l'estructura i continguts complerts de cada pàgina </a>
+<a href="./docx/continguts.pdf"target="_blank">Per a visualitza l'estructura i continguts complerts de cada pàgina </a>
 
 ## Qgis2web
 u
