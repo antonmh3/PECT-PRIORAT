@@ -15,7 +15,7 @@ Les dades utilitzades per a elaborar els continguts argumentals son en la gran m
 Per a la cartografia, s'han extret les parcel·les del cadastre del IGN, agafant unicament aquelles que mostra l'apartat del banc de terres a la pàgina original. El mètode per a elaborar el mapa i extreure les geometries s'exposa en l'apartat *Qgis2web* d'aquest readme.md. En total s'han aconseguit X parcel·les amb les següents característques: <br>
 
 |ID|X|Y|Mun|RefCad|Ha|Tipus|regadiu|Pendent|
-| ------------- |:-------------:|:-------------:|:-------------:|:-------------:|:-------------:|:-------------:|:-------------:|
+| ------------- |:-------------:|:-------------:|:-------------:|:-------------:|:-------------:|:-------------:|:-------------:|:
 |P01|	320959.2|	4557651.7|	Pradell de la Teixeta|	43117A01200016|	0,88|Avellaner|No|
 |P02|	321717.0|	4558226.8|	Pradell de la Teixeta|	1784627CF2518D| 0,08|Oliverar|No|
 |P03|	321697.0|	4558214.3|	Pradell de la Teixeta|	1784628CF2518D| 0,06|Oliverar|No|
