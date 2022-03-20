@@ -46,8 +46,15 @@ La component geogràfica de la web traduida en un mapa incrustat a l'apartat de 
 
 Inicialment es van extreure les parcel·les cadastrals de les finques cedides de Pradell de la Teixeta a través de fer comparacions de les imatges aportades per la web original amb les dimencions i geometries de les parceles cadastrals presentades pel plugin de Qgis del Cadastro INSPIRE.<br>
 
-Un cop obtingudes els polígons de les parcel·les cedides al projecte, es va modificar la taula d'atributs per a assolir l'informació imprescindible que seria representada.<br>
+<img src="./readme/map1.png" alt="map1 tutorial" width="350" height="300"> <br>
+
+Un cop obtinguts els polígons de les parcel·les cedides al projecte, es va modificar la taula d'atributs per a assolir l'informació imprescindible que seria representada, a més d'afegir capes secundaries com topografía o una ortofoto.<br>
+
+<img src="./readme/map2.png" alt="map1 tutorial" width="450" height="250"> <br>
+<img src="./readme/map3.png" alt="map1 tutorial" width="450" height="250"> <br>
 
 A continuació s'activa el plugguin de Qgis2web per acabar baixant una carpeta amb un arxiu html que serà pujat al Github per a representar el mapa i les característiques que se li ha ordenat que mostrés.<br>
+
+<img src="./readme/map4.png" alt="map1 tutorial" width="450" height="300"> <br>
 ## Improvements, difficulties, modifications
-Es podria fer una web dinàmica afegint l'apartat de post i notícies que tenen a l'original.
+
