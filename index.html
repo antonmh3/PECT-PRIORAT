@@ -4,41 +4,72 @@
 <head>
 	
 	<title>PECTPriorat-Inici</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial,scale=1">
+	<Link href= "./css/style.css" rel= "stylesheet">
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+	<script src="./js/script.js"></script>
 	<style>
 
 	</style>
 </head>
 <body>
-	
-	<div class= "topnav">
-		<a href="./index.html"><img src="./images/logo.jpg" width="180px" height="100px"></a>
-			<ul>
-				<li><a href="./index.html" >Inici</a></li>
-				<li><a href="./El projecte.html" >El projecte</a></li>
-				<li><a href="./Vissor de terres.html" >Vissor de terres</a></li>
-				<li><a href="./Terrenys.html" >Terrenys</a></li>
-				<li><a href="./Contacte.html" >Contacte</a></li>
-			</ul>
+
+	<header class= "topnav">
+		<div class="container logo">
+			<a href="./index.html"><img src="./images/logo.png"></a>
+			<span class="menu">visualitzar el menú</span>
+				<nav class= "navigation">
+					<ul>
+						<li><a href="./index.html" >Inici</a></li>
+						<li><a href="./El projecte.html" >El projecte</a></li>
+						<li><a href="./Vissor de terres.html" >Vissor de terres</a></li>
+						<li><a href="./Terrenys.html" >Terrenys</a></li>
+						<li><a href="./Contacte.html" >Contacte</a></li>
+					</ul>
+				</nav>
+			</div>
+		</header>
+
+<div class= "banner">
+	<img src="./images/banner.png">
+	<div class= bannercontent>
+		<h2>Benvolguts al projecte PECT Priorat</h2>
+		<span class= bannerdesc>desenvolupament econòmic, agricultura, sostenibilitat i paisatge</span>
+		<a  href="Contacte.html">contacta'ns</a>
 	</div>
+</div>
+	
+    	
+<div class=empty></div>
 
-<img src="./images/banner.jpg"width="180px" height="100px">
-	<h1>Benvolguts al projecte PECT Priorat</h1>
-    	<p>desenvolupament econòmic, agricultura, sostenibilitat i paisatge</p>
-    		<p><a href="Contacte.html">contacta'ns</a><p>
 
-<p>Al PECT-Priorat treballem per dinamitzar i mantenir vius els valors culturals i naturals d'aquesta comarca meridional sud de Catalunya.<br> Consulta l'apartat <a href="./El projecte.html" target="_blank">'El projecte'</a> per assabentar-te sobre els nostres objectius, operacions i notícies més recents.</p>
-	<img src="./images/valors.jpg"width="180px" height="100px">
+<div class=main>
+	<div class= "text1 col-6">
 
-<p> Compartim objectius amb la gent del territori donant continuitat a terres sense propietari, assegurant el paisatge i patrimoni tradicional tot dinamitzant activitats del sector<br> Fes una ullada al <a href="./El projecte.html" target="_blank">'Vissor de Terres'</a> on hi trobaras terrenys i finques cedides per a que puguis començar la teva vida al camp</p>
+		<p>Al PECT-Priorat treballem per dinamitzar i mantenir vius els valors culturals i naturals d'aquesta comarca meridional sud de Catalunya.<br> Consulta l'apartat <a href="./El projecte.html" target="_blank">'El projecte'</a> per assabentar-te sobre els nostres objectius, operacions i notícies més recents.</p>
+	</div>
+	<div class="image1 col-5">
+			<img src="./images/valors.jpg"width="180px" height="100px">
+	</div>
+	<div class= "text2">
+		<p> Compartim objectius amb la gent del territori donant continuitat a terres sense propietari, assegurant el paisatge i patrimoni tradicional tot dinamitzant activitats del sector<br> Fes una ullada al <a href="./El projecte.html" target="_blank">'Vissor de Terres'</a> on hi trobaras terrenys i finques cedides per a que puguis començar la teva vida al camp</p>
+	</div>
+</div>
 
-<img src="./images/logoF.jpg"width="70px" height="50px">
-<img src="./images/logoI.jpg"width="70px" height="50px">
-<img src="./images/logoT.jpg"width="70px" height="50px">
-<p>Si vols ajudar al projecte o aportar la teva opinió establim <a href="./contacte.html" target="_blank">'contacte'</a> </p>
-<p><img src="./images/correu.jpg"width="70px" height="50px">PECTPriorat@gmail.com</p>
-<p><img src="./images/tel.jpg"width="70px" height="50px">97X XX XX XX</p>
-<p><img src="./images/casa.jpg"width="70px" height="50px">Plaça de la Quartera. 1. 43730. Falset</p>   		
-<p>credits: Anton Montserrat Hernández</p>
+
+<footer class ="footer">
+	<div class="container">
+		<img src="./images/logoF.jpg"width="70px" height="50px">
+		<img src="./images/logoI.jpg"width="70px" height="50px">
+		<img src="./images/logoT.jpg"width="70px" height="50px">
+		<p>Si vols ajudar al projecte o aportar la teva opinió establim <a href="./contacte.html" target="_blank">'contacte'</a> </p>
+		<p><img src="./images/correu.jpg"width="70px" height="50px">PECTPriorat@gmail.com</p>
+		<p><img src="./images/tel.jpg"width="70px" height="50px">97X XX XX XX</p>
+		<p><img src="./images/casa.jpg"width="70px" height="50px">Plaça de la Quartera. 1. 43730. Falset</p>   		
+		<p>credits: Anton Montserrat Hernández</p>
+	</div>
+</footer>
 
 </body>
 </html>
