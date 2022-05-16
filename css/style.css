@@ -117,14 +117,112 @@ h1{
   background: darkgrey;
 }
 /*---------------------------------------------------------------------------------------------------------------------------------*/
+/*estils per obtindre el primer contenidor amb context*/
+
 .empty{
   width: 100%;
   background: #f1eae3;
   height: 50px;
+
 }
-.main{
-  margin-top: 0px;
-  ;}
+
+.context1{
+  width: 100%;
+  height: auto;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+
+}
+
+.context1 p{
+  text-align: justify-all;
+  margin-top: 10px;
+  font-size:  16px;
+  margin: 20px;
+  font-family: arial;
+ font-weight: 600;
+ line-height: 25px;
+
+}
+
+.context1 a{
+  text-decoration: none;
+  color:black;
+  padding: 5px;
+  margin: 10px;
+  margin-top: 1px;
+  border: 1px solid black;
+  font-family:impact;
+   transition: 0.4s;
+  border-radius: 5px;
+}
+.context1 a:hover{
+  background-color: lightgreen;
+  }
+
+.context1 img{
+  width: 450px;
+  height: 300px;
+  float: right;
+    margin: 20px;
+}
+
+/*---------------------------------------------------------------------------------------------------------------------------------*/
+/*estils per obtindre el segon contenidor amb context*/
+.empty2{
+  width: 100%;
+  background: #f1eae3;
+  height: 50px;
+
+}
+
+
+.context2{
+  width: 100%;
+  height: auto;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  
+
+}
+.context2 img{
+  width: 500px;
+  height: 300px;
+  float: left;
+    margin: 20px;
+    
+}
+.context2 p{
+  text-align: justify-all;
+  margin-top: 10px;
+  font-size:  16px;
+  margin: 20px;
+  font-family: arial;
+ font-weight: 600;
+ line-height: 25px;
+float: right;
+
+
+}
+
+.context2 a{
+  text-decoration: none;
+  color:black;
+  padding: 5px;
+  margin: 10px;
+  margin-top: 1px;
+  border: 1px solid black;
+  font-family:impact;
+   transition: 0.4s;
+  border-radius: 5px;
+}
+.context2 a:hover{
+  background-color: mediumpurple;
+  }
+
+
 
 /*---------------------------------------------------------------------------------------------------------------------------------*/
 /* Left column */
@@ -135,18 +233,63 @@ h1{
 .col-9 {width: 75%;} .col-10 {width: 83.33%;}
 .col-11 {width: 91.66%;} .col-12 {width: 100%;}
 /*---------------------------------------------------------------------------------------------------------------------------------*/
-.text1 {
-  float: left;
-  padding: 15px;
-}
 
-.image1 {
-  float: right;
-  padding: 15px;
-  text-align: center;
-  margin-bottom: 20px;
+.pie-pagina{
+    width: 100%;
+    background-color: #0a141d;
 }
-
+.pie-pagina .grupo-1{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap:50px;
+    padding: 45px 0px;
+}
+.pie-pagina .grupo-1 .box figure{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pie-pagina .grupo-1 .box figure img{
+    width: 150px;
+}
+.pie-pagina .grupo-1 .box h2{
+    color: #fff;
+    margin-bottom: 25px;
+    font-size: 20px;
+}
+.pie-pagina .grupo-1 .box p{
+    color: #efefef;
+    margin-bottom: 10px;
+}
+.pie-pagina .grupo-1 .red-social a{
+    display: inline-block;
+    text-decoration: none;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    color: #fff;
+    margin-right: 10px;
+    background-color: #0d2033;
+    text-align: center;
+    transition: all 300ms ease;
+}
+.pie-pagina .grupo-1 .red-social a:hover{
+    color: aqua;
+}
+.pie-pagina .grupo-2{
+    background-color: #0a1a2a;
+    padding: 15px 10px;
+    text-align: center;
+    color: #fff;
+}
+.pie-pagina .grupo-2 small{
+    font-size: 15px;
+}
 
 
 
@@ -205,3 +348,56 @@ h1{
   font-size: 15px;
 }
 /*---------------------------------------------------------------------------------------------------------------------------------*/
+.context1{
+  display: block;
+
+}
+
+.context1 p{
+text-align: center;
+ font-family: arial;
+ font-weight: 600;
+}
+
+.context1 img{
+  display: block;
+  margin: 0 auto;
+  float: none;
+  max-width: 500px;
+  height: 300px;
+  margin-bottom: 15px;
+
+  }
+  /*---------------------------------------------------------------------------------------------------------------------------------*/
+
+.context2{
+  display: block;
+
+}
+
+.context2 p{
+text-align: center;
+ font-family: arial;
+ font-weight: 600;
+ float: none;
+
+}
+
+.context2 img{
+  display: block;
+  margin: 0 auto;
+  float: none;
+  max-width: 500px;
+  height: 300px;
+  margin-top: 20px;
+  position: bottom;
+
+  }
+ /*---------------------------------------------------------------------------------------------------------------------------------*/
+     .pie-pagina .grupo-1{
+        width: 90%;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap:30px;
+        padding: 35px 0px;
+    }
+}
