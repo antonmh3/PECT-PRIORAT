@@ -206,6 +206,7 @@ text-align: justify;
 
 /*---------------------------------------------------------------------------------------------------------------------------------*/
 
+/*estils per obtindre el llistat d'objectius*/
 
 
 .obj{
@@ -242,6 +243,8 @@ text-align: justify;
 
 
 /*--------------------------------------------------------------------------------------------------------------------------------*/
+/*estils per obtindre el llistat d'empreses associades*/
+
 .socis{
   display: inline-block;
   margin-top: 20px;
@@ -269,6 +272,7 @@ transition: 0.4s;
 {filter: opacity(.5);
 }
 /*---------------------------------------------------------------------------------------------------------------------------------*/
+/*estils per obtindre el peu de pàgina*/
 .pie-pagina{
     width: 100%;
     background-color: #0a141d;
@@ -330,7 +334,7 @@ transition: 0.4s;
 
 /*---------------------------------------------------------------------------------------------------------------------------------*/
 
-/*estils per a una visió responsiva a un movil o tablet*/
+/*estils per a una visió responsiva a una tablet*/
 
 @media only screen and (max-width:720px){
 

@@ -74,7 +74,7 @@ h1{
 }
 
 /*---------------------------------------------------------------------------------------------------------------------------------*/
-/*estils per obtindre el formulari*/
+/*estils per obtindre el primer contenidor amb text*/
 
 .empty{
   width: 100%;
@@ -187,6 +187,8 @@ h1{
 
 /*---------------------------------------------------------------------------------------------------------------------------------*/
 
+/*estils per obtenir les fitxes de les parcel·les*/
+
 
 .fitxaH{
    text-align: center;
@@ -253,6 +255,8 @@ tr:nth-child(even) {
 
 /*---------------------------------------------------------------------------------------------------------------------------------*/
 
+/*estils per obtindre el peu de pagina*/
+
 .pie-pagina{
     width: 100%;
     background-color: #0a141d;
@@ -314,7 +318,7 @@ tr:nth-child(even) {
 
 /*---------------------------------------------------------------------------------------------------------------------------------*/
 
-/*estils per a una visió responsiva a un movil o tablet*/
+/*estils per a una visió responsiva a una tablet*/
 
 @media only screen and (max-width:720px){
 
