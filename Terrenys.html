@@ -4,21 +4,32 @@
 <head>
 	
 	<title>PECTPriorat-Terrenys</title>
-	<style>
-
-		
-	</style>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial,scale=1">
+	<Link href= "./css/terrenys.css" rel= "stylesheet">
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+	<script src="./js/script.js"></script>
+	<script src="https://kit.fontawesome.com/eb496ab1a0.js" crossorigin="anonymous"></script>
+	
 </head>
 <body>
-	<a href="./index.html"><img src="./images/logo.jpg" width="180px" height="100px"></a>
-			<ul>
-				<li><a href="./index.html" >Inici</a></li>
-				<li><a href="./El projecte.html" >El projecte</a></li>
-				<li><a href="./Vissor de terres.html" >Vissor de terres</a></li>
-				<li><a href="./Terrenys.html" >Terrenys</a></li>
-				<li><a href="./Contacte.html" >Contacte</a></li>
-			</ul>
-			
+	<header class= "topnav">
+		<div class="container logo">
+			<a href="./index.html"><img src="./images/logo.png"></a>
+			<span class="menu">visualitzar el menú</span>
+				<nav class= "navigation">
+					<ul>
+						<li><a href="./index.html" >Inici</a></li>
+						<li><a href="./El projecte.html" >El projecte</a></li>
+						<li><a href="./Vissor de terres.html" >Vissor de terres</a></li>
+						<li><a href="./Terrenys.html" >Terrenys</a></li>
+						<li><a href="./Contacte.html" >Contacte</a></li>
+					</ul>
+				</nav>
+			</div>
+		</header>
+
+
 <h1>Com funciona el banc de terres</h1>
 	<p>El projecte compta amb un registre de terres cedides i sol·licitants que perment tant als propietaris com als que volen accedir a unes finques poder consultar o donar informació sobre elles i demanar-ne la titularitat.<br>
 	Per poder donar-se d'alta, incriur-es al registre o demanar informació cal enviar un missatge a través del <a href="./Contacte.html" target="_blank">"contacte"</a> d'aquesta web, escriure un correu electronic o trucar al teléfon d'atenció a particulars.<br>
@@ -31,14 +42,35 @@
 
 <h1>Terrenys</h1>
 
-<img src="./images/logoF.jpg"width="70px" height="50px">
-<img src="./images/logoI.jpg"width="70px" height="50px">
-<img src="./images/logoT.jpg"width="70px" height="50px">
-<p>Si vols ajudar al projecte o aportar la teva opinió establim <a href="./contacte.html" target="_blank">'contacte'</a> </p>
-<p><img src="./images/correu.jpg"width="70px" height="50px">PECTPriorat@gmail.com</p>
-<p><img src="./images/tel.jpg"width="70px" height="50px">97X XX XX XX</p>
-<p><img src="./images/casa.jpg"width="70px" height="50px">Plaça de la Quartera. 1. 43730. Falset</p>   		
-<p>credits: Anton Montserrat Hernández</p>
+ <footer class="pie-pagina">
+        <div class="grupo-1">
+            <div class="box">
+                <figure>
+                    <a href="#">
+                        <img src="./images/logoB.png" alt="Logo de SLee Dw">
+                    </a>
+                </figure>
+            </div>
+            <div class="box">
+                <h2>SOBRE NOSALTRES</h2>
+                <p>assabenta't de les nostres accions aqui:<a href="./El projecte.html" ><br>El projecte</a></p>
+                <p>contacta amb nosaltres a través d'quest enllaç: <a href="./Contacte.html" > <br>Contacte</a></p>
+            </div>
+            <div class="box">
+                <h2>SEGUEIX-NOS</h2>
+                <div class="red-social">
+                    <a href="#" class="fa fa-facebook"></a>
+                    <a href="#" class="fa fa-instagram"></a>
+                    <a href="#" class="fa fa-twitter"></a>
+                    <a href="#" class="fa fa-youtube"></a>
+                </div>
+            </div>
+        </div>
+        <div class="grupo-2">
+            <small>&copy; 2022 <b>Anton Montserrat</b></small>
+        </div>
+    </footer>
+
 
 </body>
 </html>
