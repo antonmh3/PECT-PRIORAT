@@ -1,0 +1,928 @@
+
+/* estils generals dels continguts*/
+ 
+
+    
+
+body{
+  font-family: georgia, times, serif;
+  font-size:  1rem;
+  line-height: 1.4em;
+  margin: 0;
+  background: #f5f5f5;
+}
+
+
+
+/*---------------------------------------------------------------------------------------------------------------------------------*/
+              /*PART COMUNA A TOTS ELS HTML*/
+/*---------------------------------------------------------------------------------------------------------------------------------*/
+/*estils per a obtindre la barra de navegació de la web*/
+
+.topnav{
+  background-color:#0a1a2a ;
+  margin: 0;
+  padding: 2rem 0;
+}
+.topnav a {
+  color:  white;
+  text-decoration: none;
+}
+
+.logo{
+  display: flex;
+  justify-content: space-between;
+  align-items:  center;
+  flex-wrap: wrap;
+}
+
+.logo img{
+  width: 115px;
+  height: 130px;
+}
+.menu{
+  display: none;
+}
+
+.navigation ul{
+  margin:  0;
+  padding: 0;
+  list-style: none;
+}
+
+.navigation ul li{
+  display: inline-block;
+}
+
+.navigation ul li a{
+  display: block;
+  padding: 0.5rem 1rem;
+  transition: 0.4s;
+  border-radius: 5px;
+  font-size: 20px;
+}
+.navigation ul li a:hover{
+  background: darkgrey;
+}
+
+
+h1{
+  font-size: 2rem;
+  line-height: 1.3 rem;
+}
+
+.container{
+  width: 100%;
+  max-width:  1000px;
+  margin: 0 auto;
+}
+
+.footer{
+  background: lightgrey;
+  padding: 4rem 0;
+  text-align: center;
+  margin-top: 6rem;
+}
+
+/*---------------------------------------------------------------------------------------------------------------------------------*/
+/*estils per a una visió responsiva a una tablet*/
+
+@media only screen and (max-width:720px){
+
+.menu{
+  display: block;
+  cursor:  pointer;
+  padding: 0.5rem 2rem;
+  color: white;
+  transition: 0.4s;
+  border-radius: 5px;
+}
+.menu a:hover{
+  background: darkgrey;
+}
+
+.navigation {
+  width: 100%;
+}
+
+.navigation ul{
+  display: none;
+}
+
+.navigation ul.show{
+  display: block;
+}
+
+.navigation ul li{
+  display: block;
+}
+
+.navigation ul li a{
+  display: block;
+  padding: 0.5rem 2rem;
+  transition: 0.4s;
+  border-radius: 5px;
+}
+.navigation ul li a:hover{
+  background: darkgrey;
+}
+}
+/*---------------------------------------------------------------------------------------------------------------------------------*/
+              /*FI DE LA PART COMUNA A TOTS ELS HTML*/
+/*---------------------------------------------------------------------------------------------------------------------------------*/
+              /*INICI DELS ESTILS PER "L'INICI"*/
+/*---------------------------------------------------------------------------------------------------------------------------------*/
+
+/*estils per obtindre el banner */
+
+.banner{
+  position: relative;
+  margin-bottom: -5px;
+}
+.banner img{
+  max-width:  100%;
+  heigth: 100%;
+}
+.bannercontent{
+  position:  absolute;
+  top: 45%;
+  left: 50%;
+  transform:  translateX(-50%) translateY(-50%);
+  color: white;
+  text-align: center;
+  font-weight: 700;
+}
+.banner h2{
+  font-size: 2rem;
+  text-decoration: underline;
+  line-height: 1.8rem;
+}
+
+.banner a {
+  width: 50%;
+  display: block;
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+  margin-top: 10px;
+  border: 3px solid white;
+  transition: 0.4s;
+  border-radius: 5px;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+.banner a:hover{
+  background: darkgrey;
+
+}
+/*---------------------------------------------------------------------------------------------------------------------------------*/
+/*estils per obtindre el primer contenidor amb context*/
+
+.empty{
+  width: 100%;
+  background: #f1eae3;
+  height: 50px;
+
+}
+
+.context1{
+  width: 100%;
+  height: auto;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+
+}
+
+.context1 p{
+  text-align: justify-all;
+  margin-top: 10px;
+  font-size:  16px;
+  margin: 20px;
+  font-family: arial;
+ font-weight: 600;
+ line-height: 25px;
+
+}
+
+.context1 a{
+  text-decoration: none;
+  color:black;
+  padding: 5px;
+  margin: 10px;
+  margin-top: 1px;
+  border: 1px solid black;
+  font-family:arial;
+   transition: 0.4s;
+  border-radius: 5px;
+}
+.context1 a:hover{
+  background-color: lightgreen;
+  }
+
+.context1 img{
+  width: 450px;
+  height: 300px;
+  float: right;
+    margin: 20px;
+}
+
+/*---------------------------------------------------------------------------------------------------------------------------------*/
+/*estils per obtindre el segon contenidor amb context*/
+
+
+.context2{
+  width: 100%;
+  height: auto;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  
+
+}
+.context2 img{
+  width: 500px;
+  height: 300px;
+  float: left;
+    margin: 20px;
+    
+}
+.context2 p{
+  text-align: justify-all;
+  margin-top: 10px;
+  font-size:  16px;
+  margin: 20px;
+  font-family: arial;
+ font-weight: 600;
+ line-height: 25px;
+float: right;
+
+
+}
+
+.context2 a{
+  text-decoration: none;
+  color:black;
+  padding: 5px;
+  margin: 10px;
+  margin-top: 1px;
+  border: 1px solid black;
+  font-family:arial;
+   transition: 0.4s;
+  border-radius: 5px;
+}
+.context2 a:hover{
+  background-color: mediumpurple;
+  }
+
+/*---------------------------------------------------------------------------------------------------------------------------------*/
+
+/*estils per obtindre els separadors*/
+
+.empty{
+  width: 100%;
+  background: #f1eae3;
+  height: 50px;
+
+}
+/*---------------------------------------------------------------------------------------------------------------------------------*/
+
+/*estils per a una visió responsiva a una tablet de "INICI"*/
+
+@media only screen and (max-width:720px){
+
+
+.banner h2{
+  font-size:20px ;
+}
+.banner span{
+  font-size: 15px;
+}
+.banner a{
+  font-size: 15px;
+}
+/*---------------------------------------------------------------------------------------------------------------------------------*/
+.context1{
+  display: block;
+
+}
+
+.context1 p{
+text-align: center;
+ font-family: arial;
+ font-weight: 600;
+}
+
+.context1 img{
+  display: block;
+  margin: 0 auto;
+  float: none;
+  max-width: 500px;
+  height: 300px;
+  margin-bottom: 15px;
+
+  }
+  /*---------------------------------------------------------------------------------------------------------------------------------*/
+
+.context2{
+  display: block;
+
+}
+
+.context2 p{
+text-align: center;
+ font-family: arial;
+ font-weight: 600;
+ float: none;
+
+}
+
+.context2 img{
+  display: block;
+  margin: 0 auto;
+  float: none;
+  max-width: 500px;
+  height: 300px;
+  margin-top: 20px;
+  position: bottom;
+
+  }
+ }
+/*---------------------------------------------------------------------------------------------------------------------------------*/
+              /*FINAL DELS ESTILS PER "L'INICI"*/
+/*---------------------------------------------------------------------------------------------------------------------------------*/
+              /*INICI DELS ESTILS PER "EL PROJECTE"*/
+/*---------------------------------------------------------------------------------------------------------------------------------*/
+/*estils per obtindre el primer contenidor amb context*/
+
+.context3{
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+
+.context3 h1{
+  position:relative ;
+  display: inline-block;
+  
+}
+
+.context3 h1::after,.context3 h1::before {
+  content: '';
+  position: absolute;
+  width: 120px;
+  height: 3px;
+  background-color: black;
+  top: 0.6em;
+
+}
+
+.context3 h1::before {
+  left: -140px;
+}
+
+.context3 h1::after{
+  right: -140px;
+}
+
+.context3 p{
+text-align: justify;
+ margin-top: 10px;
+  font-size:  16px;
+  margin: 20px;
+  font-family: arial;
+ font-weight: 600;
+ line-height: 25px;
+}
+
+.context3 a{
+  
+  color:black;
+  padding: 5px;
+  margin: 3px;
+  margin-top: 1px;
+  transition: 0.4s;
+  border-radius: 10px;
+  
+}
+.context3 a:hover{
+  background-color: lightblue;
+  }
+
+/*---------------------------------------------------------------------------------------------------------------------------------*/
+/*estils per obtindre el segon contenidor amb context*/
+
+.context4H{
+  text-align: center;
+  margin-top: 20px;
+}
+
+
+.context4H h1{
+  position:relative ;
+  display: inline-block;
+  
+}
+
+.context4H h1::after,.context4H h1::before {
+  content: '';
+  position: absolute;
+  width: 120px;
+  height: 3px;
+  background-color: black;
+  top: 0.6em;
+
+}
+
+.context4H h1::before {
+  left: -150px;
+}
+
+.context4H h1::after{
+  right: -140px;
+}
+
+
+.context4{
+  width: 100%;
+  height: auto;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+
+
+}
+
+.context4 p{
+  text-align: justify;
+  margin-top: 10px;
+  font-size:  16px;
+  margin: 20px;
+  font-family: arial;
+ font-weight: 600;
+ line-height: 25px;
+
+}
+.context4 img{
+  width: 450px;
+  height: 300px;
+  float: right;
+  margin: 20px;
+
+}
+
+/*---------------------------------------------------------------------------------------------------------------------------------*/
+
+/*estils per obtindre el llistat d'objectius*/
+
+
+.obj{
+  width: 100%;
+  height: auto;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  
+}
+
+.obj h1{
+
+}
+.obj img{
+  width: 400px;
+  height: 250px;
+  float: left;
+    margin: 20px;
+    
+}
+
+.obj li{
+
+  margin-top: 10px;
+  font-size:  16px;
+  margin: 20px;
+  font-family: arial;
+ font-weight: 600;
+ line-height: 25px;
+
+
+}
+
+
+/*--------------------------------------------------------------------------------------------------------------------------------*/
+/*estils per obtindre el llistat d'empreses associades*/
+
+.socis{
+  display: inline-block;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  margin-left: 10px;
+  text-align: center;
+
+}
+
+.socis a{
+  margin-left: 10px;
+
+
+}
+.socis img{
+width: 250px;
+height: 150px;
+text-align: center;
+border: 1px solid black;
+transition: 0.4s;
+
+}
+
+.socis img:hover 
+{filter: opacity(.5);
+}
+
+/*---------------------------------------------------------------------------------------------------------------------------------*/
+
+/*estils per a una visió responsiva a una tablet de "EL PROJECTE"*/
+
+@media only screen and (max-width:720px){
+
+
+.main{
+  width: 350px;
+}
+form{
+  width: 350px;
+}
+
+/*---------------------------------------------------------------------------------------------------------------------------------*/
+.context4{
+  display: block;
+
+}
+
+.context4 p{
+text-align: justify;
+ font-family: arial;
+ font-weight: 600;
+}
+
+.context4 img{
+  display: block;
+  margin: 0 auto;
+  float: none;
+  max-width: 500px;
+  height: 300px;
+  margin-bottom: 15px;
+}
+/*---------------------------------------------------------------------------------------------------------------------------------*/
+.obj{
+  display: block;
+}
+
+.obj img{
+   display: block;
+  margin: 0 auto;
+  float: none;
+  max-width: 400px;
+  height: 250px;
+  margin-bottom: 15px;
+}
+
+ }
+
+/*---------------------------------------------------------------------------------------------------------------------------------*/
+              /*FINAL DELS ESTILS PER "EL PROJECTE"*/
+/*---------------------------------------------------------------------------------------------------------------------------------*/
+              /*INICI DELS ESTILS PER "TERRENYS"*/
+/*---------------------------------------------------------------------------------------------------------------------------------*/
+
+/*estils per obtindre el primer contenidor amb text*/
+.context5H{
+  text-align: left;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.context5H h1{
+  position:relative ;
+  display: inline-block;
+  
+}
+
+.context5{
+  width: 100%;
+  height: auto;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+
+}
+
+.context5 p{
+  text-align: justify;
+  margin-top: 10px;
+  font-size:  16px;
+  margin: 20px;
+  font-family: arial;
+ font-weight: 600;
+ line-height: 25px;
+
+}
+.context5 img{
+  width: 450px;
+  height: 300px;
+  float: right;
+  margin: 20px;
+
+}
+.context5 a{
+  
+  color:black;
+  padding: 5px;
+  margin: 3px;
+  margin-top: 1px;
+  transition: 0.4s;
+  border-radius: 10px;
+  
+}
+.context5 a:hover{
+  background-color: lightblue;
+  }
+
+/*---------------------------------------------------------------------------------------------------------------------------------*/
+
+/*estils per obtenir la galeria de parcel·les*/
+
+.gallery-block{
+  padding-bottom: 0px;
+  padding-top: 60px;
+}
+
+.gallery-block .heading{
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.gallery-block .heading h2{
+    font-weight: bold;
+    font-size: 1.4rem;
+    text-transform: uppercase;
+}
+
+.gallery-block.cards-gallery h6 {
+  font-size: 17px;
+  font-weight: bold; 
+}
+
+.gallery-block.cards-gallery .card{
+  transition: 0.4s ease; 
+}
+
+.gallery-block.cards-gallery .card img {
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.15); 
+}
+
+.gallery-block.cards-gallery .card-body {
+  text-align: center; 
+}
+
+.gallery-block.cards-gallery .card-body p {
+  font-size: 15px; 
+}
+
+.gallery-block.cards-gallery a {
+  color: #212529; 
+}
+
+.gallery-block.cards-gallery a:hover {
+  text-decoration: none; 
+}
+
+.gallery-block.cards-gallery .card {
+  margin-bottom: 30px; 
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.15);
+}
+
+@media (min-width: 576px) {
+
+  .gallery-block .transform-on-hover:hover {
+      transform: translateY(-10px) scale(1.02);
+      box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.15) !important; 
+  }
+}
+
+
+/*---------------------------------------------------------------------------------------------------------------------------------*/
+
+/*estils per a una visió responsiva a una tablet de "TERRENYS"*/
+
+@media only screen and (max-width:720px){
+
+
+.context5{
+  display: block;
+
+}
+
+.context5 p{
+text-align: justify;
+ font-family: arial;
+ font-weight: 600;
+}
+
+.context5 img{
+  display: block;
+  margin: 0 auto;
+  float: none;
+  max-width: 500px;
+  height: 300px;
+  margin-bottom: 15px;
+}
+}
+
+/*---------------------------------------------------------------------------------------------------------------------------------*/
+              /*FINAL DELS ESTILS PER "TERRENYS"*/           
+/*---------------------------------------------------------------------------------------------------------------------------------*/
+              /*INICI DELS ESTILS PER "CONTACTE"*/           
+/*---------------------------------------------------------------------------------------------------------------------------------*/
+
+/*estils per obtindre el formulari*/
+
+.empty2{
+  background-color: grey;
+  width: 100%;
+  height: 20px;
+}
+.caixa{
+  width: 100%;
+  height: 100%;
+  background-color: grey;
+
+}
+.main{
+  width:450px;
+  margin: auto;
+  margin-top: 40px;
+  background:black;
+  border-radius:10px;
+  margin-bottom: 40px;
+  margin-top: 0;
+  margin-bottom: 0;
+ 
+ }
+.main h1{
+  color:white;
+  text-align: center;
+  margin-bottom:25px;
+}
+form{
+  width: 450px;
+  margin:auto;
+  padding: 10px 20px;
+  box-sizing: border-box; 
+
+}
+input, textarea{
+  width: 100%;
+  margin-bottom:20px;
+  padding: 7px ;
+  box-sizing: border-box;
+  
+
+}
+textarea{
+  min-height: 100px;
+  min-width: 200px;
+  max-width: 100%
+
+}
+#enviar{
+  background:#47536E;
+  padding:20px;
+}
+#enviar:hover{
+  cursor:pointer;
+  background:#CACACA;
+  transition: all 0.3s linear;
+}
+/*---------------------------------------------------------------------------------------------------------------------------------*/
+/*estils per a una visió responsiva a una tablet de "CONTACTE"*/
+
+@media only screen and (max-width:720px){
+
+.main{
+  width: 350px;
+}
+form{
+  width: 350px;
+}}
+/*---------------------------------------------------------------------------------------------------------------------------------*/
+              /*FINAL DELS ESTILS PER "CONTACTE"*/           
+/*---------------------------------------------------------------------------------------------------------------------------------*/
+              /*INICI PART COMUNA A TOTS ELS HTML*/
+/*---------------------------------------------------------------------------------------------------------------------------------*/
+/*estils per obtindre el peu de pàgina*/
+
+.pie-pagina{
+    width: 100%;
+    background-color: #0a141d;
+}
+.pie-pagina .grupo-1{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap:50px;
+    padding: 45px 0px;
+}
+
+.pie-pagina .grupo-1 .box figure{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pie-pagina .grupo-1 .box figure img{
+    width: 150px;
+}
+.pie-pagina .grupo-1 .box h2{
+    color: #fff;
+    margin-bottom: 25px;
+    font-size: 20px;
+}
+.pie-pagina .grupo-1 .box p{
+    color: #efefef;
+    margin-bottom: 10px;
+}
+
+
+.pie-pagina .grupo-1 .box figure{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pie-pagina .grupo-1 .box figure img{
+    width: 150px;
+}
+.pie-pagina .grupo-1 .box h2{
+    color: #fff;
+    margin-bottom: 25px;
+    font-size: 20px;
+}
+.pie-pagina .grupo-1 .box a{ 
+  color:steelblue;
+  text-decoration: underline;
+   }
+
+.pie-pagina .grupo-1 .box p{
+    color: #efefef;
+    margin-bottom: 10px;
+}
+.pie-pagina .grupo-1 .red-social a{
+    display: inline-block;
+    text-decoration: none;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    color: #fff;
+    margin-right: 10px;
+    background-color: #0d2033;
+    text-align: center;
+    transition: all 300ms ease;
+}
+.pie-pagina .grupo-1 .red-social a:hover{
+    color: aqua;
+}
+.pie-pagina .grupo-2{
+    background-color: #0a1a2a;
+    padding: 15px 10px;
+    text-align: center;
+    color: #fff;
+}
+.pie-pagina .grupo-2 small{
+    font-size: 15px;
+}
+
+/*---------------------------------------------------------------------------------------------------------------------------------*/
+/*estils per a una visió responsiva a una tablet de "PEU DE PAGINA"*/
+
+
+@media only screen and (max-width:720px){
+ 
+     .pie-pagina .grupo-1{
+        width: 90%;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap:30px;
+        padding: 35px 0px;
+    }
+}
+/*---------------------------------------------------------------------------------------------------------------------------------*/
+              /*FINAL PART COMUNA A TOTS ELS HTML*/
+/*---------------------------------------------------------------------------------------------------------------------------------*/
+
+

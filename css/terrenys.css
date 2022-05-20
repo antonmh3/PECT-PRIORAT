@@ -138,119 +138,69 @@ h1{
 .context4 a:hover{
   background-color: lightblue;
   }
-/*---------------------------------------------------------------------------------------------------------------------------------*/
-/*estils per obtindre el segon contenidor amb context*/
 
-.context5H{
-  text-align: center;
-  margin-top: 40px;
-  margin-left: 20px;
-}
-.pad{
-  width: 100%;
-   background-color: grey;
-}
-.context5{
-
-  justify-content: center;
-  display: flex;
-  margin-left: 60px;
-  margin-right: 50px;
-  margin-bottom: 40px;
-  margin-top: 40px;
-  justify-content: space-between ;
-  
-}
-
-.context5 h4{
-
-    
-    border: 1px solid black;
-    text-align: center;
-    background-color: white;
-
- 
-}
-.context5  p{
-    margin-top: 0;
-    background-color: lightgrey;
-     border: 1px solid black;
-     text-align: center;
-     justify-content: center;
-     padding-top: 50px;
-     padding-bottom: 50px;
-     font-family: poppins, lato, glegoo;
-    font-size: 6rem;
-
-
-}
 
 /*---------------------------------------------------------------------------------------------------------------------------------*/
 
 /*estils per obtenir les fitxes de les parcel·les*/
 
-
-.fitxaH{
-   text-align: center;
-  margin-top: 40px;
-  margin-left: 20px;
+.gallery-block{
+  padding-bottom: 60px;
+  padding-top: 60px;
 }
 
-
-
-
-.fitxa{
-  display: flex;
-  margin-right: 40px;
- margin-left: 20px;
-
-}
-.table{
-  overflow-x: auto;
-  width: 100%;
-  height: auto;
-  align-items: center;
-  justify-content: center;
-display: flex;
-
-  
-}
-table {
-  border-collapse: collapse;
-  border-spacing: 0;
-  width: 100%;
-    display: flex;
-   font-family: poppins, lato, glegoo;
-  
-  align-items: center;
-  justify-content: center;
-}
-th{
-  background-color: white;
+.gallery-block .heading{
+    margin-bottom: 50px;
+    text-align: center;
 }
 
-th, td {
-  text-align: left;
-  padding: 8px;
-  border: 1px solid black;
+.gallery-block .heading h2{
+    font-weight: bold;
+    font-size: 1.4rem;
+    text-transform: uppercase;
 }
 
-tr:nth-child(even) {
-  background-color: lightgrey;
+.gallery-block.cards-gallery h6 {
+  font-size: 17px;
+  font-weight: bold; 
 }
 
-
-.fitxa img{
-  width: 350px;
-  height: 250px;
-  float: right;
-  margin: 20px;
-  border: 2px solid black;
-  transition: 1s;
+.gallery-block.cards-gallery .card{
+  transition: 0.4s ease; 
 }
 
-.fitxa img:hover {filter: opacity(.5);}
+.gallery-block.cards-gallery .card img {
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.15); 
+}
 
+.gallery-block.cards-gallery .card-body {
+  text-align: center; 
+}
+
+.gallery-block.cards-gallery .card-body p {
+  font-size: 15px; 
+}
+
+.gallery-block.cards-gallery a {
+  color: #212529; 
+}
+
+.gallery-block.cards-gallery a:hover {
+  text-decoration: none; 
+}
+
+.gallery-block.cards-gallery .card {
+  margin-bottom: 30px; 
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.15);
+}
+
+@media (min-width: 576px) {
+
+  .gallery-block .transform-on-hover:hover {
+      transform: translateY(-10px) scale(1.02);
+      box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.15) !important; 
+  }
+}
 
 
 /*---------------------------------------------------------------------------------------------------------------------------------*/
