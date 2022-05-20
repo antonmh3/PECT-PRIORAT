@@ -57,4 +57,15 @@ A continuació s'activa el plugguin de Qgis2web per acabar baixant una carpeta a
 
 <img src="./readme/map4.png" alt="map1 tutorial" width="450" height="300"> <br>
 ## Improvements, difficulties, modifications
+- Se li ha afegit la llibreria fontawesome per a visualitzar icones com al menu o icones de xarxes socials
+- S'ha enllçat boostrap per millorar la experiencia del usuari a l'hora de interactuar amb enllaços i mostrar el disseny responsiu, a banda d'una millora al temps de carrega
+
+
+- S'ha solucionat un bug al pluggin Qgis2Web eliminant la categoria "altres" de la capa d epunts, ja que no es visualitzaven les icones al mapa
+- Les captures extretes s'han guardat en .PNG i no .png, la qual cosa ha originat problemes de rutes
+
+- Ha calgut modificar les propietats dels .html de les icones svg exportades del Qgis2Web perque no es visualitzava l'estil
+- S'ha hagut de remodelar l'esquema inicial elaborat amb draw.io
+- s'ha modificat la llist de parcel·les modificant una galeria d'imatges creada per https://github.com/singhofen
+
 
